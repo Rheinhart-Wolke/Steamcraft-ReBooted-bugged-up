@@ -43,7 +43,7 @@ public class SteamcraftRB
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        // Wrapping your shit up, ext..
+        // Wrapping shit up, ext..
         LogHelper.info("Post Initialization Complete!");
     }
 }

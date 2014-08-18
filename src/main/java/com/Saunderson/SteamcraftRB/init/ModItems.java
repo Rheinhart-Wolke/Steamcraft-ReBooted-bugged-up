@@ -10,6 +10,7 @@ public class ModItems
 {
     public static final ItemSCRB woodenStock = new ItemWoodenStock();
 
+
     public static void init()
     {
         GameRegistry.registerItem(woodenStock, "woodenStock");
