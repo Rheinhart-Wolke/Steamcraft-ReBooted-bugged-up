@@ -1,6 +1,6 @@
-package com.Saunderson.SteamcraftRB.Item;
+package com.Saunderson.steamcraftrb.Item;
 
-
+import com.Saunderson.steamcraftrb.creativetab.CreativeTabSCRB;
 
 public class ItemWoodenStock extends ItemSCRB
 {
@@ -8,5 +8,6 @@ public class ItemWoodenStock extends ItemSCRB
     {
         super();
         this.setUnlocalizedName("woodenStock");
+        this.setCreativeTab(CreativeTabSCRB.SCRB_TAB);
     }
 }

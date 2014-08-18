@@ -1,7 +1,7 @@
-package com.Saunderson.SteamcraftRB.client.gui;
+package com.Saunderson.steamcraftrb.client.gui;
 
-import com.Saunderson.SteamcraftRB.handler.ConfigurationHandler;
-import com.Saunderson.SteamcraftRB.reference.reference;
+import com.Saunderson.steamcraftrb.handler.ConfigurationHandler;
+import com.Saunderson.steamcraftrb.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
@@ -13,7 +13,7 @@ public class ModGuiConfig extends GuiConfig
     {
         super(guiScreen,
                 new ConfigElement(ConfigurationHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
-                reference.MOD_ID,
+                Reference.MOD_ID,
                 false,
                 false,
                 GuiConfig.getAbridgedConfigPath(ConfigurationHandler.configuration.toString()));

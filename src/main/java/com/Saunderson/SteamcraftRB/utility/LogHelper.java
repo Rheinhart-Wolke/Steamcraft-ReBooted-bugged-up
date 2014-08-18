@@ -1,6 +1,6 @@
-package com.Saunderson.SteamcraftRB.utility;
+package com.Saunderson.steamcraftrb.utility;
 
-import com.Saunderson.SteamcraftRB.reference.reference;
+import com.Saunderson.steamcraftrb.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
@@ -8,7 +8,7 @@ public class LogHelper
 {
     public static void log(Level logLevel, Object object)
     {
-        FMLLog.log(reference.MOD_NAME, logLevel, String.valueOf(object));
+        FMLLog.log(Reference.MOD_NAME, logLevel, String.valueOf(object));
     }
 
     public static void all(Object object)

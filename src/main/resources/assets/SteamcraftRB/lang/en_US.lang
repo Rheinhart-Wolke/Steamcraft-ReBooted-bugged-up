@@ -1,1 +1,36 @@
+
+# Items
+item.steamcraftrb:copperDust.name= Copper Dust
+item.steamcraftrb:copperWire.name= Copper Wire
+item.steamcraftrb:coreDrill.name=Core Drill
+item.steamcraftrb:coreDrillBase.name=Core Drill Base
+item.steamcraftrb:diode.name=Diode
+item.steamcraftrb:electricLamp.name=Electric Lamp
+item.steamcraftrb:etherium.name=Etherium
+item.steamcraftrb:ingotBrass.name=Brass Ingot
+item.steamcraftrb:ingotCastIron.name=Cast Iron Ingot
+item.steamcraftrb:kettle.name=Kettle
+item.steamcraftrb:lightbulb.name=Lightbulb
+item.steamcraftrb:musketCartridge.name=Musket Cartridge
+item.steamcraftrb:obsidianSlate.name=Obsidian Slate
+item.steamcraftrb:percussionCap.name=Percussion Cap
+item.steamcraftrb:percussionLock.name=Percussion Lock
+item.steamcraftrb:phosphorus.name=Phosphorus
+item.steamcraftrb:reactorCore.name=Reactor Core
+item.steamcraftrb:rifledBarrel.name=Rifled Barrel
+item.steamcraftrb:smoothBarrel.name=Smooth Barrel
+item.steamcraftrb:sulphur.name=Sulphur
+item.steamcraftrb:teaCupEmpty.name=Empty Teacup
+item.steamcraftrb:teaCupFull.name=Full Teacup
+item.steamcraftrb:teaLeaves.name=Tea Leaves
+item.steamcraftrb:teaSeed.name=Tea Seeds
+item.steamcraftrb:uraniumPellet.name= Uranium Pellet
+item.steamcraftrb:uraniumStone.name=Uranium Stone
+item.steamcraftrb:wirelessLamp.name=Wireless Lamp
 item.steamcraftrb:woodenStock.name=Wooden Stock
+
+# Tools
+
+
+#Weapons
+item.steamcraftrb:steamSword.name=Steam Sword

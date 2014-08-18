@@ -1,4 +1,4 @@
-package com.Saunderson.SteamcraftRB.proxy;
+package com.Saunderson.steamcraftrb.proxy;
 
 
 

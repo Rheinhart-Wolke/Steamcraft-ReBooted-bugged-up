@@ -1,27 +1,25 @@
-package com.Saunderson.SteamcraftRB;
+package com.Saunderson.steamcraftrb;
 
 
-import com.Saunderson.SteamcraftRB.handler.ConfigurationHandler;
-import com.Saunderson.SteamcraftRB.init.ModItems;
-import com.Saunderson.SteamcraftRB.proxy.IProxy;
-import com.Saunderson.SteamcraftRB.reference.reference;
-import com.Saunderson.SteamcraftRB.utility.LogHelper;
-import cpw.mods.fml.client.event.ConfigChangedEvent;
+import com.Saunderson.steamcraftrb.handler.ConfigurationHandler;
+import com.Saunderson.steamcraftrb.init.ModItems;
+import com.Saunderson.steamcraftrb.proxy.IProxy;
+import com.Saunderson.steamcraftrb.reference.Reference;
+import com.Saunderson.steamcraftrb.utility.LogHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid= reference.MOD_ID, name= reference.MOD_NAME, version= reference.VERSION, guiFactory= reference.GUI_FACTORY_CLASS)
+@Mod(modid= Reference.MOD_ID, name= Reference.MOD_NAME, version= Reference.VERSION, guiFactory= Reference.GUI_FACTORY_CLASS)
 
 public class SteamcraftRB
 {
-    @Mod.Instance(reference.MOD_ID)
+    @Mod.Instance(Reference.MOD_ID)
     public static SteamcraftRB instance;
 
-    @SidedProxy(clientSide = reference.CLIENT_PROXY_CLASS, serverSide = reference.SERVER_PROXY_CLASS)
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     @Mod.EventHandler

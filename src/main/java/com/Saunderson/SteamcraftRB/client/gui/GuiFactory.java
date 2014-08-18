@@ -1,4 +1,4 @@
-package com.Saunderson.SteamcraftRB.client.gui;
+package com.Saunderson.steamcraftrb.client.gui;
 
 
 import cpw.mods.fml.client.IModGuiFactory;

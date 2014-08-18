@@ -18,12 +18,11 @@ buildscript {
 apply plugin: 'forge'
 
 version = "Alpha-1.0"
-group= "com.Saunderson.SteamcraftRB" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.Saunderson.steamcraftrb" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "SteamcraftRB"
 
 minecraft {
     version = "1.7.10-10.13.0.1180"
-    assetDir = "eclipse/assets"
 }
 
 dependencies {
