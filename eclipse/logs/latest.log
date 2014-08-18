@@ -1,10 +1,10 @@
-[16:42:28] [main/INFO]: Setting user: ForgeDevName
-[16:42:29] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:42:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
-[16:42:34] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:42:35] [Sound Library Loader/INFO]: Sound engine started
-[16:42:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:42:37] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/woodenStock.png
+[17:09:15] [main/INFO]: Setting user: ForgeDevName
+[17:09:16] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:09:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
+[17:09:21] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[17:09:22] [Sound Library Loader/INFO]: Sound engine started
+[17:09:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:09:25] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/woodenStock.png
 java.io.FileNotFoundException: steamcraftrb:textures/items/woodenStock.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -33,10 +33,10 @@ java.io.FileNotFoundException: steamcraftrb:textures/items/woodenStock.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:42:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:42:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
-[16:42:38] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:42:38] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/woodenStock.png
+[17:09:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:09:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
+[17:09:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[17:09:25] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/woodenStock.png
 java.io.FileNotFoundException: steamcraftrb:textures/items/woodenStock.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -68,23 +68,32 @@ java.io.FileNotFoundException: steamcraftrb:textures/items/woodenStock.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:42:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:42:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:42:39] [Sound Library Loader/INFO]: Sound engine started
-[16:43:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:43:08] [Server thread/INFO]: Generating keypair
-[16:43:08] [Server thread/INFO]: Preparing start region for level 0
-[16:43:08] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:43:09] [Server thread/INFO]: ForgeDevName[local:E:c68e46c0] logged in with entity id 129 at (-569.2465760699101, 4.0, -598.8866693954117)
-[16:43:09] [Server thread/INFO]: ForgeDevName joined the game
-[16:43:16] [Server thread/INFO]: Saving and pausing game...
-[16:43:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:43:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:43:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:43:18] [Server thread/INFO]: Stopping server
-[16:43:18] [Server thread/INFO]: Saving players
-[16:43:18] [Server thread/INFO]: Saving worlds
-[16:43:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:43:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:43:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:43:20] [Client thread/INFO]: Stopping!
+[17:09:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:09:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:09:26] [Sound Library Loader/INFO]: Sound engine started
+[17:09:33] [Client thread/INFO]: Deleting level New World
+[17:09:33] [Client thread/INFO]: Attempt 1...
+[17:09:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:09:44] [Server thread/INFO]: Generating keypair
+[17:09:44] [Server thread/INFO]: Converting map!
+[17:09:44] [Server thread/INFO]: Scanning folders...
+[17:09:44] [Server thread/INFO]: Total conversion count is 0
+[17:09:45] [Server thread/INFO]: Preparing start region for level 0
+[17:09:45] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:09:46] [Server thread/INFO]: ForgeDevName[local:E:c32da87e] logged in with entity id 0 at (-1156.5, 4.0, -1490.5)
+[17:09:46] [Server thread/INFO]: ForgeDevName joined the game
+[17:09:57] [Server thread/INFO]: [ForgeDevName: Given [Wooden Stock] * 1 to ForgeDevName]
+[17:09:57] [Client thread/INFO]: [CHAT] Given [Wooden Stock] * 1 to ForgeDevName
+[17:10:05] [Server thread/INFO]: ForgeDevName has just earned the achievement [Taking Inventory]
+[17:10:05] [Client thread/INFO]: [CHAT] ForgeDevName has just earned the achievement [Taking Inventory]
+[17:10:26] [Server thread/INFO]: Saving and pausing game...
+[17:10:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:10:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:10:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:10:28] [Server thread/INFO]: Stopping server
+[17:10:28] [Server thread/INFO]: Saving players
+[17:10:28] [Server thread/INFO]: Saving worlds
+[17:10:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:10:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:10:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:10:30] [Client thread/INFO]: Stopping!
