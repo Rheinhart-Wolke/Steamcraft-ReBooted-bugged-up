@@ -8,18 +8,12 @@ import net.minecraft.item.Item;
 
 public class CreativeTabSCRB
 {
-    public static final CreativeTabs SCRB_TAB = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs SCRB_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
         {
             return ModItems.steamSword;
-        }
-
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "Steamcraft-ReBooted";
         }
     };
 }

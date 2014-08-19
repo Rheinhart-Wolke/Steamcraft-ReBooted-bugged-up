@@ -1,4 +1,6 @@
 
+itemGroup.steamcraftrb=Steamcraft-ReBooted
+
 # Items
 item.steamcraftrb:copperDust.name= Copper Dust
 item.steamcraftrb:copperWire.name= Copper Wire

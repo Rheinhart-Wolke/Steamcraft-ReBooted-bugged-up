@@ -16,5 +16,6 @@ public class ModItems
     {
         GameRegistry.registerItem(woodenStock, "woodenStock");
         GameRegistry.registerItem(steamSword, "steamSword");
+
     }
 }
